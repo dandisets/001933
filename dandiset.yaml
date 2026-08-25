@@ -55,8 +55,8 @@ citation: Chen, Chuyu; He, Qianzi; Tombesi, Giulia; Napier, Eve; Jaconelli, Matt
   Amanda; Quinn, Kaitlyn; Nasios, Christopher; Greggio, Elisa; Kozorovitskiy, Yevgenia;
   Arango, Daniel; Khan, Amir R.; Alessi, Dario R.; Dombeck, Daniel A.; Hilfiker, Sabine;
   Awatramani, Rajeshwar; Parisiadou, Loukia (2026) Leucine-rich repeat kinase 2 impairs
-  the release sites of Parkinson’s disease vulnerable dopamine axons (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001933/draft
+  the release sites of Parkinson’s disease vulnerable dopamine axons (Version 0.260825.1457)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001933/0.260825.1457
 contributor:
 - affiliation:
   - identifier: https://ror.org/01d74sk53
@@ -350,6 +350,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2026-07-27T09:19:31.794920+00:00'
+datePublished: '2026-08-25T14:57:12.691593+00:00'
 description: 'Parkinson’s disease (PD) is defined pathologically by loss of dopamine-producing
   neurons in the substantia nigra pars compacta (SNc). Yet synaptic dysfunction emerges
   much earlier, making it essential to define the mechanisms that drive early nigrostriatal
@@ -365,10 +366,11 @@ description: 'Parkinson’s disease (PD) is defined pathologically by loss of do
   compares dopamine release between wild-type (LRRK2-WT) and LRRK2-G2019S knockin
   mice to investigate how pathogenic LRRK2 kinase activity affects dopamine synaptic
   function in a subtype-specific manner.'
+doi: 10.48324/dandi.001933/0.260825.1457
 ethicsApproval:
 - identifier: IS00019736
   schemaKey: EthicsApproval
-id: DANDI:001933/draft
+id: DANDI:001933/0.260825.1457
 identifier: DANDI:001933
 keywords:
 - fiber photometry
@@ -383,9 +385,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001933/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001933/0.260825.1457/assets.yaml
 name: Leucine-rich repeat kinase 2 impairs the release sites of Parkinson’s disease
   vulnerable dopamine axons
+publishedBy:
+  endDate: '2026-08-25T14:57:12.691593+00:00'
+  id: urn:uuid:4d353dd3-3980-4592-b343-c49571ad225b
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-08-25T14:57:12.691593+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:908ce2f8-2330-4a09-83ac-6f24a4b04ac2
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: Leucine-rich repeat kinase 2 impairs the release sites of Parkinson’s disease
     vulnerable dopamine axons
@@ -411,6 +425,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/001933/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001933/0.260825.1457
+version: 0.260825.1457
 wasGeneratedBy: []
