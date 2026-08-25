@@ -350,7 +350,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2026-07-27T09:19:31.794920+00:00'
-description: "Parkinson’s disease (PD) is defined pathologically by loss of dopamine-producing
+description: 'Parkinson’s disease (PD) is defined pathologically by loss of dopamine-producing
   neurons in the substantia nigra pars compacta (SNc). Yet synaptic dysfunction emerges
   much earlier, making it essential to define the mechanisms that drive early nigrostriatal
   deregulation. In the SNc, molecularly distinct dopamine neuron subtypes show differential
@@ -364,19 +364,7 @@ description: "Parkinson’s disease (PD) is defined pathologically by loss of do
   via Cre-dependent ChRmine expression and red-light (635 nm) stimulation. The experiment
   compares dopamine release between wild-type (LRRK2-WT) and LRRK2-G2019S knockin
   mice to investigate how pathogenic LRRK2 kinase activity affects dopamine synaptic
-  function in a subtype-specific manner. This research was funded in whole or in part
-  by Aligning Science Across Parkinson's [D.A.D., R.A., L.P ASAP- 020600] and [D.R.A
-  ASAP-000463] through the Michael J. Fox Foundation for Parkinson's Research (MJFF)
-  and the UK Medical Research Council [MC_UU_00018/1] (D.R.A). A.R.K. was funded by
-  Research Ireland through a Research Frontiers grant, 20/FFP-A/8446, and R.A. by
-  R01NS119690. For the purpose of open access, the author has applied a CC BY public
-  copyright license to all Author Accepted Manuscripts arising from this submission.\
-  \  Imaging work was performed at the Northwestern University Center for Advanced
-  Microscopy (RRID: SRC_020996), generously supported by NCICCSGP30 CA060553, which
-  was awarded to the Robert H. Lurie Comprehensive Cancer Center. Structured illumination
-  microscopy was performed on a Nikon N-SIM system, purchased with NIH 1S10OD016342-01
-  support. Super-resolution spinning disk microscopy was performed on a Nikon SoRa
-  system, purchased with NIH 1S10OD032270-01 support. "
+  function in a subtype-specific manner.'
 ethicsApproval:
 - identifier: IS00019736
   schemaKey: EthicsApproval
@@ -413,6 +401,13 @@ relatedResource:
   schemaKey: Resource
   url: 
     https://github.com/catalystneuro/dombeck-lab-to-nwb/tree/main/src/dombeck_lab_to_nwb/chen2026
+- name: Example notebook for DANDI 001933
+  relation: dcite:IsSupplementedBy
+  repository: GitHub
+  resourceType: dcite:ComputationalNotebook
+  schemaKey: Resource
+  url: 
+    https://github.com/dandi/example-notebooks/blob/master/001933/DombeckLab/001933_demo.ipynb
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
