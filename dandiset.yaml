@@ -39,9 +39,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 490487410
-  numberOfFiles: 23
-  numberOfSubjects: 23
+  numberOfBytes: 571942769
+  numberOfFiles: 27
+  numberOfSubjects: 27
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -364,7 +364,16 @@ description: 'Parkinson’s disease (PD) is defined pathologically by loss of do
   via Cre-dependent ChRmine expression and red-light (635 nm) stimulation. The experiment
   compares dopamine release between wild-type (LRRK2-WT) and LRRK2-G2019S knockin
   mice to investigate how pathogenic LRRK2 kinase activity affects dopamine synaptic
-  function in a subtype-specific manner.'
+  function in a subtype-specific manner. This dandiset holds the fiber photometry
+  and optogenetics recordings behind Figure 6 and Supplementary Figures 7 and 8 of
+  the paper, from the 27 mice kept for analysis (15 Anxa1-iCre and 12 Calb1-Cre).
+  Four other mice were excluded after post-hoc histological verification of virus
+  expression and fiber placement and are not included: one Anxa1 LRRK2-G2019S mouse
+  (abnormal GRAB-DA3m and ChRmine expression), one Calb1 LRRK2-G2019S mouse (off-target
+  ChRmine expression) and two Calb1 LRRK2-WT mice (poor optic fiber placement). The
+  proteomics, imaging and source data of the paper are deposited in PRIDE, the BioImage
+  Archive and Zenodo, and are listed under related resources together with the analysis
+  code.'
 ethicsApproval:
 - identifier: IS00019736
   schemaKey: EthicsApproval
@@ -408,6 +417,80 @@ relatedResource:
   schemaKey: Resource
   url: 
     https://github.com/dandi/example-notebooks/blob/master/001933/DombeckLab/001933_demo.ipynb
+- identifier: PXD065003
+  name: The Parkinson’s disease kinase LRRK2 impairs release sites of vulnerable dopamine
+    axons - APEX2 proteome analysis
+  relation: dcite:References
+  repository: PRIDE
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://www.ebi.ac.uk/pride/archive/projects/PXD065003
+- identifier: PXD065006
+  name: The Parkinson’s disease kinase LRRK2 impairs release sites of vulnerable dopamine
+    axons - striatal synaptosomes phosphoproteomic study
+  relation: dcite:References
+  repository: PRIDE
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://www.ebi.ac.uk/pride/archive/projects/PXD065006
+- identifier: PXD065125
+  name: The Parkinson’s disease kinase LRRK2 impairs release sites of vulnerable dopamine
+    axons
+  relation: dcite:References
+  repository: PRIDE
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://www.ebi.ac.uk/pride/archive/projects/PXD065125
+- identifier: S-BIAD2070
+  name: LRRK2 is expressed in dopamine neurons and is enriched in the vulnerable subpopulation
+  relation: dcite:References
+  repository: BioImage Archive
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2070
+- identifier: S-BIAD2071
+  name: LRRK2 disrupts the number and composition of active zone release sites in
+    vulnerable dopamine axons
+  relation: dcite:References
+  repository: BioImage Archive
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2071
+- identifier: S-BIAD2072
+  name: Th fibers and dopamine vesicle clustering alterations
+  relation: dcite:References
+  repository: BioImage Archive
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2072
+- identifier: S-BIAD2074
+  name: LRRK2 alters the composition and organization of active zone release sites
+    in dopaminergic striatal synaptosomes
+  relation: dcite:References
+  repository: BioImage Archive
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD2074
+- identifier: doi:10.5281/zenodo.19930567
+  name: Source data and uncropped western blots of the paper
+  relation: dcite:References
+  repository: Zenodo
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://doi.org/10.5281/zenodo.19930567
+- identifier: doi:10.5281/zenodo.20244434
+  name: 'Analysis code: DombeckLab/lrrk2_photometry_analysis (Nat Comms 2026 code)'
+  relation: dcite:IsSupplementedBy
+  repository: Zenodo
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://doi.org/10.5281/zenodo.20244434
+- name: 'Analysis code: DombeckLab/lrrk2_photometry_analysis'
+  relation: dcite:IsSupplementedBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/DombeckLab/lrrk2_photometry_analysis
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
