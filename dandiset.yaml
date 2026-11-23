@@ -39,17 +39,17 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 571942769
-  numberOfFiles: 27
-  numberOfSubjects: 27
+  numberOfBytes: 490487410
+  numberOfFiles: 23
+  numberOfSubjects: 23
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - ProcessingModule
   - BehavioralTimeSeries
+  - ProcessingModule
 citation: Chen, Chuyu; He, Qianzi; Tombesi, Giulia; Napier, Eve; Jaconelli, Matthew;
   Moreno-Ramos, Oscar Andrés; Serio, Hannah; Naaldijk, Yahaira; Promes, Vanessa; Schneeweis,
   Amanda; Quinn, Kaitlyn; Nasios, Christopher; Greggio, Elisa; Kozorovitskiy, Yevgenia;
